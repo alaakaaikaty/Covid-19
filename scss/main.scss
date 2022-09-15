@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: gel;
 }
 
@@ -123,4 +124,63 @@ body {
     font-size: 19.5px;
     line-height: 2.5rem;
     margin-bottom: 1rem;
+}
+
+.contagion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contagion>h2 {
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 1rem;
+    color: #fa5652;
+    margin-bottom: 1rem;
+}
+
+.contagion h1 {
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    color: #035755;
+}
+
+.contagion>p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    text-transform: initial;
+    color: #4b4f51;
+    width: 580px;
+    margin: 2rem auto 4rem;
+}
+
+.contagion-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 16rem;
+}
+
+.contagion-row .contagion-pic1 {
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 35px 87px rgb(202, 202, 202);
+    cursor: pointer;
+    // 5px 5px 5px rgba(68, 68, 68, 0.6);
+    width: 38rem;
+    border-bottom: 7px transparent solid;
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    padding: 2rem 1rem;
+}
+
+.contagion-row .contagion-pic1:hover {
+    background: #f7f7f7;
+    border-bottom: 5px red solid;
+    transition: all 0.5s ease-in-out;
 }
