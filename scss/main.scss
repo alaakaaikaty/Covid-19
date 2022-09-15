@@ -58,10 +58,38 @@ body {
     color: $main-color;
     font-weight: 700;
     cursor: pointer;
+    padding-bottom: 10px;
 }
 
-// header img and text
-.image-a {
-    height: 100%;
-    width: 100%;
+#links li a:hover {
+    border-bottom: 3px solid $secondary-color;
+    transition: all 0.2s;
+}
+
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+
+#intro-text h2 {
+    font-weight: 100;
+    font-size: 28px;
+    color: $secondary-color;
+}
+
+#intro-text h1 {
+    color: $main-color;
+    font-weight: 600;
+    font-size: 47px;
+    margin-bottom: 2rem;
+}
+
+#intro-text p {
+    color: #4b4f41;
+    font-size: 20px;
+    margin-bottom: 1rem;
 }

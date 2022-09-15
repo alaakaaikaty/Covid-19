@@ -1,5 +1,5 @@
 $max_width: 1920px;
-$background: linear-gradient(256.62deg, #fff1f4, 9.91%, #ffffff88.82%);
+$background: #fff1f4;
 $main-color: #035755;
 $secondary-color :#fb4c47;
 
@@ -17,5 +17,20 @@ $secondary-color :#fb4c47;
 .btn-dark:hover {
     background-color: $secondary-color;
     color: #fff;
+    cursor: pointer;
+}
+
+.btn-light {
+    font-size: 1.2rem;
+    background-color: $secondary-color;
+    padding: 1rem 3.5rem;
+    border: 2px solid $secondary-color;
+    border-radius: 6.5rem;
+    color: #fff;
+}
+
+.btn-light:hover {
+    background-color: $background;
+    color: $secondary-color;
     cursor: pointer;
 }
