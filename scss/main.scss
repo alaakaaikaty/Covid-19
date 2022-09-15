@@ -126,6 +126,8 @@ body {
     margin-bottom: 1rem;
 }
 
+// contagion
+
 .contagion {
     display: flex;
     flex-direction: column;
@@ -182,5 +184,120 @@ body {
 .contagion-row .contagion-pic1:hover {
     background: #f7f7f7;
     border-bottom: 5px red solid;
-    transition: all 0.5s ease-in-out;
+    transform: scaleX(100%);
+    transition: 0.5s ease-in-out;
+}
+
+// symptoms
+.symptoms {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 8rem 16rem;
+}
+
+.symptoms h2 {
+    color: #fa5652;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 100;
+}
+
+.symptoms h1 {
+    color: $main-color ;
+    font-size: 3.5rem;
+}
+
+.symptoms p {
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-transform: initial;
+    color: #4b4f51;
+    width: 620px;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.pre-img {
+    margin-left: 3rem;
+}
+
+// prevention
+
+.prevention {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 8rem 16rem;
+}
+
+.prevention h2 {
+    color: #fa5652;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 100;
+}
+
+.prevention h1 {
+    color: $main-color ;
+    font-size: 3.5rem;
+}
+
+.prevention p {
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-transform: initial;
+    color: #4b4f51;
+    width: 550px;
+    margin-top: 2rem;
+    margin-left: 11.5rem;
+}
+
+// prevention boxes
+.prevention-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.prevention-box .prevention-1 {
+    height: 100%;
+    width: 120rem;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+}
+
+.prevention-box .prevention-1 .box-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.prevention-box .prevention-1 .box-1 .number {
+    color: $secondary-color ;
+    width: 70px;
+    line-height: 7rem;
+    height: 70px;
+    border-radius: 50%;
+    background: rgba(250, 86, 82, 0.15);
+    border: none;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.prevention-box .prevention-1 .box-1 .prev-text {
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-transform: initial;
+    color: #4b4f51;
+    width: 550px;
+    margin-top: 2rem;
+    margin-left: 11.5rem;
 }
