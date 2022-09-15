@@ -60,3 +60,7 @@ body {
   color: #035755;
   font-weight: 700;
   cursor: pointer; }
+
+.image-a {
+  height: 100%;
+  width: 100%; }
