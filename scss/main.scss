@@ -1,8 +1,3 @@
-@font-face {
-    src: url(../fonts/Gelion-Regular.ttf);
-    font-family: gel;
-}
-
 @import 'utilities';
 
 * {
@@ -79,17 +74,53 @@ body {
     font-weight: 100;
     font-size: 28px;
     color: $secondary-color;
+    margin-bottom: 5px;
 }
 
 #intro-text h1 {
     color: $main-color;
     font-weight: 600;
     font-size: 47px;
-    margin-bottom: 2rem;
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
 }
 
 #intro-text p {
     color: #4b4f41;
     font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+// sections
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.section-a-text {
+    padding-right: 11rem;
+}
+
+.section-a-text h2 {
+    font-weight: 100;
+    font-size: 28px;
+    color: $secondary-color;
+}
+
+.section-a-text h1 {
+    color: $main-color;
+    font-weight: 900;
+    font-size: 47px;
+    margin-bottom: 2rem;
+}
+
+.section-a-text p {
+    color: #4b4f41;
+    font-size: 19.5px;
+    line-height: 2.5rem;
     margin-bottom: 1rem;
 }

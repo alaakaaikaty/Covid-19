@@ -17,9 +17,9 @@
   cursor: pointer; }
 
 .btn-light {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   background-color: #fb4c47;
-  padding: 1rem 3.5rem;
+  padding: 1rem 3rem;
   border: 2px solid #fb4c47;
   border-radius: 6.5rem;
   color: #fff; }
@@ -27,6 +27,19 @@
 .btn-light:hover {
   background-color: #fff1f4;
   color: #fb4c47;
+  cursor: pointer; }
+
+.btn-white {
+  font-size: 1.2rem;
+  background-color: #fa565226;
+  padding: 1rem 3.5rem;
+  border: 2px solid transparent;
+  border-radius: 6.5rem;
+  color: #fb4c47; }
+
+.btn-white:hover {
+  background-color: #fb4c47;
+  color: #fff;
   cursor: pointer; }
 
 * {
@@ -89,15 +102,44 @@ body {
 #intro-text h2 {
   font-weight: 100;
   font-size: 28px;
-  color: #fb4c47; }
+  color: #fb4c47;
+  margin-bottom: 5px; }
 
 #intro-text h1 {
   color: #035755;
   font-weight: 600;
   font-size: 47px;
-  margin-bottom: 2rem; }
+  line-height: 1.5;
+  margin-bottom: 2.5rem; }
 
 #intro-text p {
   color: #4b4f41;
   font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 3rem; }
+
+.about-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem; }
+
+.section-a-text {
+  padding-right: 11rem; }
+
+.section-a-text h2 {
+  font-weight: 100;
+  font-size: 28px;
+  color: #fb4c47; }
+
+.section-a-text h1 {
+  color: #035755;
+  font-weight: 900;
+  font-size: 47px;
+  margin-bottom: 2rem; }
+
+.section-a-text p {
+  color: #4b4f41;
+  font-size: 19.5px;
+  line-height: 2.5rem;
   margin-bottom: 1rem; }
