@@ -227,6 +227,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 8rem;
 }
 
 .all .box-1 {
@@ -275,4 +276,57 @@ body {
 
 .img-1 {
     margin-left: 6rem;
+}
+
+// Section E
+
+.contact {
+    position: absolute;
+    left: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+
+.contact h2 {
+    color: $main-color;
+    font-size: 3.2rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+
+    span {
+        padding-left: 6rem;
+        font-weight: 700;
+    }
+
+}
+
+.contact .email {
+    height: 50px;
+    position: relative;
+}
+
+.contact .email input {
+    height: 150%;
+    width: 35rem;
+    padding-left: 50px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+}
+
+.contact .email button {
+    position: absolute;
+    z-index: 10;
+    top: 7px;
+    left: 410px;
+    font-size: 1.3rem;
+    background-color: $secondary-color;
+    padding: 1rem 3rem;
+    border: 2px solid $secondary-color;
+    border-radius: 6.5rem;
+    color: #fff;
 }
