@@ -8,8 +8,8 @@
 }
 
 body {
-    background: #fff1f4;
-    background-color: $background;
+    background: $background-color;
+    background-color: $background-color;
     overflow-x: hidden;
 }
 
@@ -163,7 +163,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 0 16rem;
+    margin: 0rem 16rem;
 }
 
 .contagion-row .contagion-pic1 {
@@ -174,7 +174,7 @@ body {
     // 5px 5px 5px rgba(68, 68, 68, 0.6);
     width: 38rem;
     margin: 5rem 2rem;
-    border-bottom: 5px transparent;
+    border: 10px transparent;
     padding: 3rem 2rem;
 }
 
@@ -280,6 +280,7 @@ body {
     text-align: center;
     margin-bottom: 3rem;
     color: $main-color;
+
 }
 
 .last-txt {
@@ -298,6 +299,7 @@ body {
     border: 2px solid transparent;
     padding: 35px 20px;
     width: 470px;
+    box-shadow: 0px 35px 87px rgb(202, 202, 202);
 }
 
 
