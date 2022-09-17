@@ -1,4 +1,5 @@
-$max_width: 1920px;
+$max-width: 1920px;
+$max-height: 100vh;
 $background: #fff1f4;
 $main-color: #035755;
 $secondary-color :#fb4c47;
@@ -30,7 +31,7 @@ $secondary-color :#fb4c47;
     font-size: 1.3rem;
     background-color: $secondary-color;
     padding: 1rem 3rem;
-    border: 2px solid $secondary-color;
+    border: none;
     border-radius: 6.5rem;
     color: #fff;
 }
@@ -38,6 +39,7 @@ $secondary-color :#fb4c47;
 .btn-light:hover {
     background-color: $background;
     color: $secondary-color;
+    border: none;
     cursor: pointer;
 }
 

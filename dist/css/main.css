@@ -20,13 +20,14 @@
   font-size: 1.3rem;
   background-color: #fb4c47;
   padding: 1rem 3rem;
-  border: 2px solid #fb4c47;
+  border: none;
   border-radius: 6.5rem;
   color: #fff; }
 
 .btn-light:hover {
   background-color: #fff1f4;
   color: #fb4c47;
+  border: none;
   cursor: pointer; }
 
 .btn-white {
@@ -100,7 +101,6 @@ body {
 
 .logo-text {
   padding: 1rem;
-  list-style: 2.5rem;
   font-size: 20.8px;
   font-weight: 100;
   color: #035755; }
@@ -218,17 +218,14 @@ body {
   box-shadow: 0px 35px 87px #cacaca;
   cursor: pointer;
   width: 38rem;
-  border-bottom: 7px transparent solid;
-  margin-bottom: 5rem;
-  border-radius: 1rem;
-  margin-right: 2rem;
-  padding: 2rem 1rem; }
+  margin: 5rem 2rem;
+  border-bottom: 5px transparent;
+  padding: 3rem 2rem; }
 
 .contagion-row .contagion-pic1:hover {
   background: #f7f7f7;
-  border-bottom: 5px red solid;
-  transform: scaleX(100%);
-  transition: 0.5s ease-in-out; }
+  border-bottom: 4px #fa5652 solid;
+  transition: 0.2s ease-in-out; }
 
 .symptoms {
   display: flex;
@@ -301,44 +298,90 @@ body {
   margin-left: 6rem; }
 
 .contact {
-  position: absolute;
-  left: 31%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 10rem; }
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #035755; }
 
-.contact h2 {
-  color: #035755;
-  font-size: 3.2rem;
-  font-weight: 100;
+.last-txt {
+  font-family: gel, sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
   margin-bottom: 3rem; }
-  .contact h2 span {
-    padding-left: 6rem;
-    font-weight: 700; }
 
-.contact .email {
-  height: 50px;
-  position: relative; }
+#contact > form > input {
+  height: 10px;
+  border-radius: 57px;
+  background: #fff;
+  font-size: 1.5rem;
+  color: #758681;
+  border: 2px solid transparent;
+  padding: 35px 20px;
+  width: 470px; }
 
-.contact .email input {
-  height: 150%;
-  width: 35rem;
-  padding-left: 50px;
-  font-size: 20px;
-  outline: none;
-  border-radius: 50px;
-  border: none; }
-
-.contact .email button {
-  position: absolute;
-  z-index: 10;
-  top: 7px;
-  left: 410px;
-  font-size: 1.3rem;
+.contact button {
+  margin-left: -9rem;
+  padding: 1rem 2.5rem;
+  font-weight: 500;
+  font-size: 1.5rem;
   background-color: #fb4c47;
-  padding: 1rem 3rem;
-  border: 2px solid #fb4c47;
+  border: none;
   border-radius: 6.5rem;
   color: #fff; }
+
+.contact button:hover {
+  background-color: #fff1f4;
+  color: #fb4c47;
+  border: none;
+  cursor: pointer; }
+
+.foot-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 10rem;
+  margin-bottom: 2rem; }
+
+.logo-2 {
+  display: flex;
+  align-items: center; }
+
+.logo-text-2 {
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: 100;
+  color: #035755; }
+
+#link-last {
+  display: flex;
+  list-style: none;
+  align-items: center; }
+
+#link-last li {
+  margin-left: 1.5rem; }
+
+#link-last li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #035755;
+  font-weight: 100; }
+
+#link {
+  display: flex;
+  list-style: none;
+  align-items: center; }
+
+#link li {
+  margin-right: 2.5rem; }
+
+#link li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #035755;
+  font-weight: 100; }
+
+.foot {
+  text-align: center;
+  margin: 1rem;
+  color: #035755;
+  font-weight: 100; }
