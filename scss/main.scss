@@ -301,6 +301,12 @@ body {
     box-shadow: 0px 35px 87px rgb(202, 202, 202);
 }
 
+#contact>form>input:focus {
+    outline: none;
+    border: 2px solid #fa5652;
+    color: #fa5652;
+}
+
 
 .contact button {
     margin-left: -9rem;
@@ -319,6 +325,7 @@ body {
     border: none;
     cursor: pointer;
 }
+
 
 // footer
 
